@@ -6,6 +6,10 @@ html {
   line-height: 1.5;
 }
 
+div>h2 {
+  color: #333;
+}
+
 img {
   display: inline-block;
   margin-bottom: 0 auto 2rem;
@@ -13,6 +17,12 @@ img {
   padding: .4em .75em .5em;
   text-align: center;
 }
+
+p {
+  text-align: left;
+  color: #333;
+}
+
 .btn {
   width: 200px;
   height: 50px;
