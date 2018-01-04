@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  background-color: #eee9de;
+  max-width: 25em;
+  line-height: 1.5;
+}
+
+img {
+  display: inline-block;
+  margin-bottom: 0 auto 2rem;
+  margin: 1.5rem;
+  padding: .4em .75em .5em;
+  text-align: center;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+}
