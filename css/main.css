@@ -1,8 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   background-color: #f2f2f2;
 }
 
@@ -11,50 +8,40 @@ html {
 }
 
 body {
+  font-family: Lato, sans-serif;
+  padding: 2em;
+  text-align: left;
   margin: 0;
-  vertical-align: middle;
-  text-align: center;
 }
 
 div {
-  display: inline-block;
-  text-align: left;
   vertical-align: middle;
-}
-
-img {
-  width: 100%;
   max-width: 25em;
-  margin: 1.5rem;
-  display: block;
+  display: inline-block;
+  min-width: 20em;
 }
 
-h2 {
-  margin: .5rem .5rem .5rem 1.5rem;
-  text-align: left;
-  font-weight: 700;
-}
-
-p {
+.header-div {
   margin: 1.5rem;
-  margin-bottom: 0;
-  max-width: 25em;
-  text-align: left;
 }
 
 .btn {
+  display: inline-block;
   margin: 1.5rem;
-  float: left;
-  background-color: #f2f2f2;
-  border: 3px solid #333;
-  color: black;
-  border-radius: 4px;
-  text-decoration: none;
-  padding: .5em;
+  max-width: 25em;
+  padding: .4em .75em .5em;
+  border: #333;
+  border-radius: 10px;
+  border-style: solid;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .btn:hover {
-  background-color: #666;
-  border: 3px solid #666;
-  color: #f2f2f2;
+  color: #666;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
